@@ -19,10 +19,16 @@ p{
 p i{
 	color: #86b300; 
 }
+#homepic img{
+	max-width: 200px;
+}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}
 #heading{
 	
+}
+#homepic img{
+	width: 100%;
 }
 
 #main {margin-left: 20px}
