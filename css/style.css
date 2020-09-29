@@ -8,6 +8,11 @@ h4{
 	color: #ffcc66;
 }
 
+#testbg{
+	background: url(images/jeanb.jpg) repeat-x center 0px;
+	background-color: red;
+}
+
 h3{
 	color: #99e600;
 }
@@ -20,15 +25,27 @@ p i{
 	color: #86b300; 
 }
 #homepic img{
-	max-width: 200px;
-}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}
-#heading{
 	
 }
+
+#abtme h3{
+	padding: 20px;
+}
+
+#abtme p{
+	margin: auto 20px;
+}
+
+header{text-align: left; border-bottom: 1px solid #ffcc66;}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+	#main {margin-left: 0}
+	#abtme{text-align: left; border-top: 1px solid #ffcc66;border-left: 0px solid #ffcc66;margin-top: 20px;}
+#abtme p{
+	margin: 0px;
+}
 #homepic img{
-	width: 100%;
+	
 }
 
 #main {margin-left: 20px}
